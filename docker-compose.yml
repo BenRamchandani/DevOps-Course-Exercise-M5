@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  dev:
+    build: 
+      context: .
+      target: development
+    ports:
+      - "5100:80"
+    env_file:
+      - ./.env
+    volumes:
+      - ./todo_app:/app/todo_app

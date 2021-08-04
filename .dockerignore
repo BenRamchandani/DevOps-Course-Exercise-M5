@@ -1,0 +1,15 @@
+# Local development config
+.env*
+venv
+env
+
+# Git
+.git*
+.dockerignore
+.vagrant
+.idea
+
+# Python artefacts
+.pytest_cache
+__pycache__
+*.egg-info
